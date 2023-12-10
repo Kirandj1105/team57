@@ -70,7 +70,7 @@ function Services() {
               <Card.Text>{service.text}</Card.Text>
               <Button variant="primary" onClick={()=>
               {
-                navigate(`/cart`);
+                navigate(`/Orders`);
               }}>Orders</Button>
             </Card.Body>
           </Card>

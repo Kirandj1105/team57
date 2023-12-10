@@ -6,7 +6,7 @@ import Login from "./component/Login";
 import AboutUs from "./component/AboutUs";
 import FooterComp from "./component/FooterComp";
 import Services from "./component/Services";
-import  Cart  from "./component/Cart";
+import  Orders  from "./component/Orders";
 
 
 
@@ -20,7 +20,7 @@ function App() {
            <Route path="/Services" element={<Services/>}></Route>
            <Route path="/login" element={<Login/>}></Route>
            <Route path="/aboutus" element={<AboutUs/>}></Route>
-          <Route path="/cart" element={<Cart></Cart>}></Route> 
+          <Route path="/Orders" element={<Orders></Orders>}></Route> 
        </Routes>
        <FooterComp></FooterComp>
      </BrowserRouter>
